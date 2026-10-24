@@ -28,7 +28,7 @@
         </tr>
     </table>
 
-    <br><br><br><br><br>
+    <br><br>
 
     <form action="images.html"> <!--action submite basıldığın gidilecek yeri belirtir-->
         
@@ -42,6 +42,70 @@
         
         <input type="submit"> <!--buton-->
     </form>
+
+    <br><br>
+
+    <form action="htmlBasics.html"> 
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" placeholder="ornek@gmail.com">
+        <br>
+        
+        <label for="parola">Parola: </label>
+        <input type="password" id="parola" name="parola" placeholder="123456789">
+        <br>
+        
+        <input type="submit" value="Login"> 
+    </form>
+
+    <br><br>
+    <form action="divSpanHtml.html"> 
+        <p>Fast an Furious   vs   Star Wars</p>
+
+        <label for="fastAndFurious">Fast an Furious </label>
+        <input type="radio" id="fastAndFurious" name="fastAndFurious">
+        <br>
+        
+        <label for="starWars">Star Wars </label>
+        <input type="radio" id="starWars" name="starWars">
+        <br>
+        
+        <input type="submit" value="Seçim Yap"> 
+    </form>
+    
+    <br><br>
+
+    <form action="divSpanHtml.html"> 
+        <p>Fast an Furious1   vs   Star Wars1</p>
+
+        <!--eğer seçenklerin name leri aynı verilirse sadece 1 tanesinin seçimine izin berir aynı anda birden fazla seçim yapılamaz-->
+        <label for="fastAndFurious1">Fast an Furious1 </label>
+        <input type="radio" id="fastAndFurious1" name="film" value="fastAndFurious1">
+        <br>
+        
+        <label for="starWars1">Star Wars1 </label>
+        <input type="radio" id="starWars1" name="film" value="starWars">
+        <br>
+        
+        <input type="submit" value="Seçim Yap"> 
+    </form>
+
+    <br><br>
+
+    <form action="htmlList.html">
+        <p>Filme puanınızı seçiniz</p>
+        <select name="puanlama" id="puanlama"> <!--aşağı açılır seçenekler sunar-->
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Seçim Yap">
+    </form>
+    
+
     
 </body>
 </html>
